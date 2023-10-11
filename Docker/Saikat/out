@@ -1,0 +1,7 @@
+CONTAINER ID   NAME                  CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+8345f4a9e976   kitchenv2-kitchen-6   0.00%     5.867MiB / 15.56GiB   0.04%     2.94kB / 0B       0B / 4.1kB        7
+cdddc465d497   kitchenv2-kitchen-5   0.00%     5.914MiB / 15.56GiB   0.04%     3.05kB / 0B       0B / 4.1kB        7
+82a53f78af1c   kitchenv2-kitchen-4   0.00%     5.883MiB / 15.56GiB   0.04%     3.22kB / 0B       0B / 4.1kB        7
+410f2f1c9664   kitchenv2-kitchen-3   0.00%     5.883MiB / 15.56GiB   0.04%     3.22kB / 0B       0B / 4.1kB        7
+013fd6fff000   kitchenv2-kitchen-2   0.00%     5.871MiB / 15.56GiB   0.04%     3.4kB / 0B        0B / 4.1kB        7
+58ad0eba68d8   kitchenv2-kitchen-1   598.06%   8.383MiB / 15.56GiB   0.05%     23.6kB / 1.35kB   0B / 1.51MB       19
