@@ -1,0 +1,50 @@
+pipeline {
+    agent any 
+    
+    stages {
+        stage('#Build') { 
+            steps {
+                echo 'Build Stage Done'
+            }
+        }
+        stage('#Test') { 
+            steps {
+                echo 'Test Stage Done'
+            }
+        }
+        stage('#Deploy') { 
+            steps {
+                echo 'Deploy Stage Done'
+            }
+        }
+    }
+}
+
+
+node {  
+    stage('Build') { 
+        echo 'Build Stage Done'
+    }
+    stage('Test') { 
+        echo 'Test Stage Done'
+    }
+    stage('Deploy') { 
+        echo 'Deploy Stage Done'
+    }
+}
+
+
+node {  
+    stage('Update & Upgrade Stage') { 
+        echo 'OS APT Update' 
+        sh 'sudo apt update && sudo apt upgrade -y'
+    }
+    stage('Install Stage') { 
+        echo 'neoFetch Install' 
+        sh 'sudo apt install neofetch -y'
+    }
+    stage('Run Stage') {
+        echo 'neoFetch System Info'
+        sh 'neofetch'
+    }
+}
