@@ -1,0 +1,1 @@
+A Jenkins Pipeline code for Multi Stage Deployment with NeoFetch System Info Execution on Succesfull Pipeline.
